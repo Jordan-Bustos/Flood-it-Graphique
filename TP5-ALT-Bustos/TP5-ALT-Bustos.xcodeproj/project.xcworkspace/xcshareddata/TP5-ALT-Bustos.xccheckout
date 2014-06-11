@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>050AEA40-AE87-4BE5-83D1-914CE7970722</string>
+	<key>IDESourceControlProjectName</key>
+	<string>TP5-ALT-Bustos</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>BC90131D-7C98-4691-A3A0-2A64631D2D18</key>
+		<string>https://github.com/Jordan-Bustos/Flood-it-Graphique.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>TP5-ALT-Bustos/TP5-ALT-Bustos.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>BC90131D-7C98-4691-A3A0-2A64631D2D18</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Jordan-Bustos/Flood-it-Graphique.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>BC90131D-7C98-4691-A3A0-2A64631D2D18</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>BC90131D-7C98-4691-A3A0-2A64631D2D18</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Flood-it-Graphique</string>
+		</dict>
+	</array>
+</dict>
+</plist>

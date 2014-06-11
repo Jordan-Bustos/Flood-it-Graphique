@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B6267B9719486EEF00365844 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6267B9619486EEF00365844 /* Foundation.framework */; };
+		B6267B9919486EEF00365844 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6267B9819486EEF00365844 /* CoreGraphics.framework */; };
+		B6267B9B19486EEF00365844 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6267B9A19486EEF00365844 /* UIKit.framework */; };
+		B6267BA119486EEF00365844 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B6267B9F19486EEF00365844 /* InfoPlist.strings */; };
+		B6267BA319486EEF00365844 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B6267BA219486EEF00365844 /* main.m */; };
+		B6267BA719486EEF00365844 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B6267BA619486EEF00365844 /* AppDelegate.m */; };
+		B6267BAA19486EEF00365844 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6267BA819486EEF00365844 /* Main_iPhone.storyboard */; };
+		B6267BAD19486EEF00365844 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6267BAB19486EEF00365844 /* Main_iPad.storyboard */; };
+		B6267BB019486EEF00365844 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6267BAF19486EEF00365844 /* ViewController.m */; };
+		B6267BB219486EEF00365844 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6267BB119486EEF00365844 /* Images.xcassets */; };
+		B6267BB919486EEF00365844 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6267BB819486EEF00365844 /* XCTest.framework */; };
+		B6267BBA19486EEF00365844 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6267B9619486EEF00365844 /* Foundation.framework */; };
+		B6267BBB19486EEF00365844 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6267B9A19486EEF00365844 /* UIKit.framework */; };
+		B6267BC319486EEF00365844 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B6267BC119486EEF00365844 /* InfoPlist.strings */; };
+		B6267BC519486EEF00365844 /* TP5_ALT_BustosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B6267BC419486EEF00365844 /* TP5_ALT_BustosTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B6267BBC19486EEF00365844 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6267B8B19486EEF00365844 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6267B9219486EEF00365844;
+			remoteInfo = "TP5-ALT-Bustos";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B6267B9319486EEF00365844 /* TP5-ALT-Bustos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TP5-ALT-Bustos.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6267B9619486EEF00365844 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B6267B9819486EEF00365844 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B6267B9A19486EEF00365844 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B6267B9E19486EEF00365844 /* TP5-ALT-Bustos-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TP5-ALT-Bustos-Info.plist"; sourceTree = "<group>"; };
+		B6267BA019486EEF00365844 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B6267BA219486EEF00365844 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B6267BA419486EEF00365844 /* TP5-ALT-Bustos-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TP5-ALT-Bustos-Prefix.pch"; sourceTree = "<group>"; };
+		B6267BA519486EEF00365844 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B6267BA619486EEF00365844 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B6267BA919486EEF00365844 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		B6267BAC19486EEF00365844 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		B6267BAE19486EEF00365844 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B6267BAF19486EEF00365844 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B6267BB119486EEF00365844 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B6267BB719486EEF00365844 /* TP5-ALT-BustosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TP5-ALT-BustosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6267BB819486EEF00365844 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		B6267BC019486EEF00365844 /* TP5-ALT-BustosTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TP5-ALT-BustosTests-Info.plist"; sourceTree = "<group>"; };
+		B6267BC219486EEF00365844 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B6267BC419486EEF00365844 /* TP5_ALT_BustosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TP5_ALT_BustosTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B6267B9019486EEF00365844 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6267B9919486EEF00365844 /* CoreGraphics.framework in Frameworks */,
+				B6267B9B19486EEF00365844 /* UIKit.framework in Frameworks */,
+				B6267B9719486EEF00365844 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6267BB419486EEF00365844 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6267BB919486EEF00365844 /* XCTest.framework in Frameworks */,
+				B6267BBB19486EEF00365844 /* UIKit.framework in Frameworks */,
+				B6267BBA19486EEF00365844 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B6267B8A19486EEF00365844 = {
+			isa = PBXGroup;
+			children = (
+				B6267B9C19486EEF00365844 /* TP5-ALT-Bustos */,
+				B6267BBE19486EEF00365844 /* TP5-ALT-BustosTests */,
+				B6267B9519486EEF00365844 /* Frameworks */,
+				B6267B9419486EEF00365844 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B6267B9419486EEF00365844 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B6267B9319486EEF00365844 /* TP5-ALT-Bustos.app */,
+				B6267BB719486EEF00365844 /* TP5-ALT-BustosTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B6267B9519486EEF00365844 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B6267B9619486EEF00365844 /* Foundation.framework */,
+				B6267B9819486EEF00365844 /* CoreGraphics.framework */,
+				B6267B9A19486EEF00365844 /* UIKit.framework */,
+				B6267BB819486EEF00365844 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B6267B9C19486EEF00365844 /* TP5-ALT-Bustos */ = {
+			isa = PBXGroup;
+			children = (
+				B6267BA519486EEF00365844 /* AppDelegate.h */,
+				B6267BA619486EEF00365844 /* AppDelegate.m */,
+				B6267BA819486EEF00365844 /* Main_iPhone.storyboard */,
+				B6267BAB19486EEF00365844 /* Main_iPad.storyboard */,
+				B6267BAE19486EEF00365844 /* ViewController.h */,
+				B6267BAF19486EEF00365844 /* ViewController.m */,
+				B6267BB119486EEF00365844 /* Images.xcassets */,
+				B6267B9D19486EEF00365844 /* Supporting Files */,
+			);
+			path = "TP5-ALT-Bustos";
+			sourceTree = "<group>";
+		};
+		B6267B9D19486EEF00365844 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B6267B9E19486EEF00365844 /* TP5-ALT-Bustos-Info.plist */,
+				B6267B9F19486EEF00365844 /* InfoPlist.strings */,
+				B6267BA219486EEF00365844 /* main.m */,
+				B6267BA419486EEF00365844 /* TP5-ALT-Bustos-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B6267BBE19486EEF00365844 /* TP5-ALT-BustosTests */ = {
+			isa = PBXGroup;
+			children = (
+				B6267BC419486EEF00365844 /* TP5_ALT_BustosTests.m */,
+				B6267BBF19486EEF00365844 /* Supporting Files */,
+			);
+			path = "TP5-ALT-BustosTests";
+			sourceTree = "<group>";
+		};
+		B6267BBF19486EEF00365844 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B6267BC019486EEF00365844 /* TP5-ALT-BustosTests-Info.plist */,
+				B6267BC119486EEF00365844 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B6267B9219486EEF00365844 /* TP5-ALT-Bustos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6267BC819486EEF00365844 /* Build configuration list for PBXNativeTarget "TP5-ALT-Bustos" */;
+			buildPhases = (
+				B6267B8F19486EEF00365844 /* Sources */,
+				B6267B9019486EEF00365844 /* Frameworks */,
+				B6267B9119486EEF00365844 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TP5-ALT-Bustos";
+			productName = "TP5-ALT-Bustos";
+			productReference = B6267B9319486EEF00365844 /* TP5-ALT-Bustos.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B6267BB619486EEF00365844 /* TP5-ALT-BustosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6267BCB19486EEF00365844 /* Build configuration list for PBXNativeTarget "TP5-ALT-BustosTests" */;
+			buildPhases = (
+				B6267BB319486EEF00365844 /* Sources */,
+				B6267BB419486EEF00365844 /* Frameworks */,
+				B6267BB519486EEF00365844 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6267BBD19486EEF00365844 /* PBXTargetDependency */,
+			);
+			name = "TP5-ALT-BustosTests";
+			productName = "TP5-ALT-BustosTests";
+			productReference = B6267BB719486EEF00365844 /* TP5-ALT-BustosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B6267B8B19486EEF00365844 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Jordan Bustos";
+				TargetAttributes = {
+					B6267BB619486EEF00365844 = {
+						TestTargetID = B6267B9219486EEF00365844;
+					};
+				};
+			};
+			buildConfigurationList = B6267B8E19486EEF00365844 /* Build configuration list for PBXProject "TP5-ALT-Bustos" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B6267B8A19486EEF00365844;
+			productRefGroup = B6267B9419486EEF00365844 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B6267B9219486EEF00365844 /* TP5-ALT-Bustos */,
+				B6267BB619486EEF00365844 /* TP5-ALT-BustosTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B6267B9119486EEF00365844 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6267BAD19486EEF00365844 /* Main_iPad.storyboard in Resources */,
+				B6267BB219486EEF00365844 /* Images.xcassets in Resources */,
+				B6267BAA19486EEF00365844 /* Main_iPhone.storyboard in Resources */,
+				B6267BA119486EEF00365844 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6267BB519486EEF00365844 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6267BC319486EEF00365844 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B6267B8F19486EEF00365844 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6267BB019486EEF00365844 /* ViewController.m in Sources */,
+				B6267BA719486EEF00365844 /* AppDelegate.m in Sources */,
+				B6267BA319486EEF00365844 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6267BB319486EEF00365844 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6267BC519486EEF00365844 /* TP5_ALT_BustosTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B6267BBD19486EEF00365844 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B6267B9219486EEF00365844 /* TP5-ALT-Bustos */;
+			targetProxy = B6267BBC19486EEF00365844 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B6267B9F19486EEF00365844 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6267BA019486EEF00365844 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B6267BA819486EEF00365844 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6267BA919486EEF00365844 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		B6267BAB19486EEF00365844 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6267BAC19486EEF00365844 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		B6267BC119486EEF00365844 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6267BC219486EEF00365844 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B6267BC619486EEF00365844 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B6267BC719486EEF00365844 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B6267BC919486EEF00365844 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TP5-ALT-Bustos/TP5-ALT-Bustos-Prefix.pch";
+				INFOPLIST_FILE = "TP5-ALT-Bustos/TP5-ALT-Bustos-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B6267BCA19486EEF00365844 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TP5-ALT-Bustos/TP5-ALT-Bustos-Prefix.pch";
+				INFOPLIST_FILE = "TP5-ALT-Bustos/TP5-ALT-Bustos-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B6267BCC19486EEF00365844 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TP5-ALT-Bustos.app/TP5-ALT-Bustos";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TP5-ALT-Bustos/TP5-ALT-Bustos-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TP5-ALT-BustosTests/TP5-ALT-BustosTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		B6267BCD19486EEF00365844 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TP5-ALT-Bustos.app/TP5-ALT-Bustos";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TP5-ALT-Bustos/TP5-ALT-Bustos-Prefix.pch";
+				INFOPLIST_FILE = "TP5-ALT-BustosTests/TP5-ALT-BustosTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B6267B8E19486EEF00365844 /* Build configuration list for PBXProject "TP5-ALT-Bustos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6267BC619486EEF00365844 /* Debug */,
+				B6267BC719486EEF00365844 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6267BC819486EEF00365844 /* Build configuration list for PBXNativeTarget "TP5-ALT-Bustos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6267BC919486EEF00365844 /* Debug */,
+				B6267BCA19486EEF00365844 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B6267BCB19486EEF00365844 /* Build configuration list for PBXNativeTarget "TP5-ALT-BustosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6267BCC19486EEF00365844 /* Debug */,
+				B6267BCD19486EEF00365844 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B6267B8B19486EEF00365844 /* Project object */;
+}
