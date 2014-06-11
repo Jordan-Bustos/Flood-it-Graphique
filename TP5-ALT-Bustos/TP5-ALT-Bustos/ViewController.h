@@ -12,6 +12,7 @@
 #import "ColorManager.h"
 
 @interface ViewController : UIViewController <UICollectionViewDataSource,UICollectionViewDelegate>
+
 @property (weak, nonatomic) IBOutlet UICollectionViewFlowLayout *collectionViewFlowLayout;
 
 @property (weak, nonatomic) IBOutlet UICollectionView *collectionView;
