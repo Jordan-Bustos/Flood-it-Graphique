@@ -22,6 +22,10 @@
 		B6267BBB19486EEF00365844 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6267B9A19486EEF00365844 /* UIKit.framework */; };
 		B6267BC319486EEF00365844 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B6267BC119486EEF00365844 /* InfoPlist.strings */; };
 		B6267BC519486EEF00365844 /* TP5_ALT_BustosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B6267BC419486EEF00365844 /* TP5_ALT_BustosTests.m */; };
+		B6267BD41948702900365844 /* Case.m in Sources */ = {isa = PBXBuildFile; fileRef = B6267BD31948702900365844 /* Case.m */; };
+		B6267BD71948706100365844 /* Grille.m in Sources */ = {isa = PBXBuildFile; fileRef = B6267BD61948706100365844 /* Grille.m */; };
+		B6267BDA194870A300365844 /* GameManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B6267BD9194870A300365844 /* GameManager.m */; };
+		B6267BDE1948A08700365844 /* ColorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B6267BDD1948A08700365844 /* ColorManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +59,14 @@
 		B6267BC019486EEF00365844 /* TP5-ALT-BustosTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TP5-ALT-BustosTests-Info.plist"; sourceTree = "<group>"; };
 		B6267BC219486EEF00365844 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B6267BC419486EEF00365844 /* TP5_ALT_BustosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TP5_ALT_BustosTests.m; sourceTree = "<group>"; };
+		B6267BD21948702900365844 /* Case.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Case.h; sourceTree = "<group>"; };
+		B6267BD31948702900365844 /* Case.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Case.m; sourceTree = "<group>"; };
+		B6267BD51948706100365844 /* Grille.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Grille.h; sourceTree = "<group>"; };
+		B6267BD61948706100365844 /* Grille.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Grille.m; sourceTree = "<group>"; };
+		B6267BD8194870A300365844 /* GameManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameManager.h; sourceTree = "<group>"; };
+		B6267BD9194870A300365844 /* GameManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameManager.m; sourceTree = "<group>"; };
+		B6267BDC1948A08700365844 /* ColorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorManager.h; sourceTree = "<group>"; };
+		B6267BDD1948A08700365844 /* ColorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,12 +126,11 @@
 		B6267B9C19486EEF00365844 /* TP5-ALT-Bustos */ = {
 			isa = PBXGroup;
 			children = (
-				B6267BA519486EEF00365844 /* AppDelegate.h */,
-				B6267BA619486EEF00365844 /* AppDelegate.m */,
-				B6267BA819486EEF00365844 /* Main_iPhone.storyboard */,
-				B6267BAB19486EEF00365844 /* Main_iPad.storyboard */,
-				B6267BAE19486EEF00365844 /* ViewController.h */,
-				B6267BAF19486EEF00365844 /* ViewController.m */,
+				B6267BDB1948A06300365844 /* Utils */,
+				B6267BD119486FF600365844 /* BusinessLayer */,
+				B6267BD019486FDB00365844 /* Controllers */,
+				B6267BCF19486F8B00365844 /* Storyboards */,
+				B6267BCE19486F7300365844 /* Delegates */,
 				B6267BB119486EEF00365844 /* Images.xcassets */,
 				B6267B9D19486EEF00365844 /* Supporting Files */,
 			);
@@ -153,6 +164,55 @@
 				B6267BC119486EEF00365844 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B6267BCE19486F7300365844 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				B6267BA519486EEF00365844 /* AppDelegate.h */,
+				B6267BA619486EEF00365844 /* AppDelegate.m */,
+			);
+			name = Delegates;
+			sourceTree = "<group>";
+		};
+		B6267BCF19486F8B00365844 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				B6267BA819486EEF00365844 /* Main_iPhone.storyboard */,
+				B6267BAB19486EEF00365844 /* Main_iPad.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		B6267BD019486FDB00365844 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B6267BAE19486EEF00365844 /* ViewController.h */,
+				B6267BAF19486EEF00365844 /* ViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		B6267BD119486FF600365844 /* BusinessLayer */ = {
+			isa = PBXGroup;
+			children = (
+				B6267BD21948702900365844 /* Case.h */,
+				B6267BD31948702900365844 /* Case.m */,
+				B6267BD51948706100365844 /* Grille.h */,
+				B6267BD61948706100365844 /* Grille.m */,
+				B6267BD8194870A300365844 /* GameManager.h */,
+				B6267BD9194870A300365844 /* GameManager.m */,
+			);
+			name = BusinessLayer;
+			sourceTree = "<group>";
+		};
+		B6267BDB1948A06300365844 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				B6267BDC1948A08700365844 /* ColorManager.h */,
+				B6267BDD1948A08700365844 /* ColorManager.m */,
+			);
+			name = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -253,7 +313,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6267BDE1948A08700365844 /* ColorManager.m in Sources */,
 				B6267BB019486EEF00365844 /* ViewController.m in Sources */,
+				B6267BDA194870A300365844 /* GameManager.m in Sources */,
+				B6267BD41948702900365844 /* Case.m in Sources */,
+				B6267BD71948706100365844 /* Grille.m in Sources */,
 				B6267BA719486EEF00365844 /* AppDelegate.m in Sources */,
 				B6267BA319486EEF00365844 /* main.m in Sources */,
 			);
@@ -395,6 +459,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TP5-ALT-Bustos/TP5-ALT-Bustos-Prefix.pch";
 				INFOPLIST_FILE = "TP5-ALT-Bustos/TP5-ALT-Bustos-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -408,6 +473,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TP5-ALT-Bustos/TP5-ALT-Bustos-Prefix.pch";
 				INFOPLIST_FILE = "TP5-ALT-Bustos/TP5-ALT-Bustos-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
